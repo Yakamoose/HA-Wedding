@@ -1,0 +1,348 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /*width: 100%;*/
+}
+
+
+/*---------------NAV BAR---------------*/
+
+.nav{
+    /*border:1px solid #ccc;*/
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #4d0000;
+    opacity: 0.9;
+}
+.nav li{
+    display:inline;
+    text-transform: uppercase;
+}
+.nav a{
+    display:inline-block;
+    padding:10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: ivory;
+    font-family: 'Pompiere', cursive;
+}
+
+
+/*--------------HOME PAGE--------------*/
+
+.hero {
+  background-image: url('./images/hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #4d0000;
+  height: 800px;
+
+
+}
+
+.title-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 50px;
+  color: ivory;
+  opacity: 0.7;
+  margin-top: -20px;
+  font-family: 'Dancing Script', cursive;
+  line-height: .7;
+}
+
+.title-date {
+  font-size: 50px;
+}
+
+
+/*-----------COUNTDOWN-------------*/
+
+.countdown {
+  text-align: center;
+  background-image: url('./images/wood.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px 0 60px 0 ;
+  color: ivory;
+  background-color: #4d0000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 33px;
+  font-weight: 200;
+  line-height: 0.7;
+
+
+  /*margin-top: -10px;*/
+}
+
+#clock {
+  font-family: 'Lovers Quarrel';
+  font-size: 60px
+}
+
+
+/*------------THE COUPLE--------------*/
+
+.couple {
+    display:inline-block;
+    width: 33.333333333333%;
+    /*puy ,img. tags on own lines for tiny spacing*/
+    /*padding: 20px 0;*/
+    /*border-radius: 25px;*/
+}
+
+.the-couple {
+  background-color: #4d0000;
+  text-align: center;
+  color: ivory;
+}
+
+.love-birds {
+  padding-top: 10px;
+  font-size: 50px;
+  font-stretch: expanded;
+  font-family: 'Dancing Script', cursive;
+  /*font-weight: lighter;*/
+}
+p.couple-description {
+  font-size:30px;
+  padding: 0px 10% 60px 10%;
+  font-family: 'Pompiere', cursive;
+}
+
+
+/*-------------THE WEDDING PARTY------------------*/
+.wedding-party {
+  text-align: center;
+  font-size: 30px;
+  background-color: ivory;
+  font-family: 'Dancing Script', cursive;
+  margin-top: -40px;
+  padding-bottom: 30px;
+}
+
+.wedding-party h1 {
+  padding-top: 20px;
+}
+
+.people-img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.people {
+  display: inline-block;
+  padding: 0 30px;
+  font-family: 'Pompiere', cursive;
+
+}
+
+.people p {
+  margin-top: 5px;
+  line-height: .4;
+
+}
+
+.person-title {
+  font-size: 25px;
+}
+
+/*---------------DAY OF---------------------*/
+
+.day {
+  margin-top: -35px;
+  background-image: url('./images/venue.png');
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  background-color: #4d0000;
+  height: 1200px;
+  opacity: .5;
+  /*display: inline-block;*/
+  text-align: center;
+}
+
+.venue-info {
+  position: relative;
+  top: 650px;
+  left: 15%;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+
+.day-heading {
+  position: relative;
+  top: 625px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: ivory;
+}
+
+.date-heading {
+  position: relative;
+  top: 615px;
+  font-family: 'Pompiere', cursive;
+  font-size: 30px;
+  color: ivory;
+}
+
+
+.logo {
+  width: 70%;
+  border: 20px solid goldenrod;
+  margin-bottom: 20px;
+}
+
+.address {
+  text-decoration: none;
+  color: ivory;
+  font-size: 20px;
+  font-family: 'Pompiere', cursive;
+
+}
+
+.details-heading {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: ivory;
+}
+
+
+.details {
+  text-align: center;
+  position: relative;
+  color: ivory;
+  font-size: 20px;
+  float: right;
+  top: 690px;
+  right: 30%;
+  font-family: 'Pompiere', cursive;
+  line-height: 0.5;
+}
+
+.logo:hover {
+  width: 75%;
+  -webkit-transition: width 1.5s; /* Safari */
+  transition: width 1.5s;
+}
+
+.address:hover {
+  color: grey;
+  -webkit-transition: width 1.5s; /* Safari */
+  transition: width 1.5s;
+}
+
+/*----------------REGISTRY-----------------------*/
+
+.reg {
+
+  text-align: center;
+  background-image: url('https://img.etsystatic.com/il/a0cdad/510452704/il_570xN.510452704_8hbn.jpg?version=0');
+  background-size: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 5px 10%;
+  color: dimgrey;
+}
+
+.reg-title {
+  /*padding-top: 30px;*/
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+.reg-desc {
+  font-family: 'Pompiere', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  border-bottom: 3px solid dimgrey;
+
+}
+
+.reg-logo {
+  margin-top: -30px;
+  height: 150px;
+}
+
+.reg-logo:hover {
+  height: 175px;
+  -webkit-transition: width 3s; /* Safari */
+  transition: width 3s;
+}
+
+
+/*---------------------INSTA------------------------*/
+
+.insta {
+  display: inline-block;
+
+}
+
+.insta-heading {
+  margin-top: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+.insta-details {
+  font-family: 'Pompiere', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pic {
+  height: 250px;
+}
+.right{
+  padding: 40px;
+  transform: rotate(3deg);
+}
+
+.left {
+  padding: 40px;
+  transform: rotate(-3deg);
+}
+
+
+/*----------------DOGS---------------------*/
+
+
+
+.family {
+  background-image: url('http://www.patrick-reclaim.co.uk/wp-content/uploads/wood-_texture1584.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+  text-align: center;
+  margin-top: -33px;
+}
+
+.dogs {
+  height: 375px;
+  border-radius: 5px;
+}
+
+.family h1 {
+  padding-top: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: maroon;
+  font-size: 50px;
+}
+
+
+/*@media only screen and (max-width: 600px) {
+    nav {
+      display: none;
+    }
+}*/
