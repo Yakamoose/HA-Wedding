@@ -355,6 +355,21 @@ p.couple-description {
     }
     .logo {
       width: 50%;
+      border: 20px solid red;
+
+    }
+    .venue-info {
+      text-align: center;
+      float: none;
+      left: 0;
+    }
+    .details {
+      float: none;
+      text-align: center;
+      right: 0;
+    }
+    .day {
+      height: 1420px;
     }
 
 }
