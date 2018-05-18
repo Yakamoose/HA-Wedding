@@ -353,5 +353,8 @@ p.couple-description {
       top: 45%;
       /*line-height: 1;*/
     }
+    .logo {
+      width: 50%;
+    }
 
 }
