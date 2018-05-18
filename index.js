@@ -118,13 +118,6 @@ people.forEach(function(person) {
 });
 
 
-var token = '51376554.ad53052.dbd9f0a935f04309a8b27880ada09b52',
-    hashtag='hurryitstheurrys', // hashtag without # symbol
-    num_photos = 15;
-
-
-    var audio = document.getElementsByTagName("audio")[0];
-    // audio.play();
 
 
 
