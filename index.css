@@ -372,15 +372,16 @@ p.couple-description {
     text-align: center;
     float: none;
     left: 0;
+    top: 600px;
   }
   .details {
     float: none;
     text-align: center;
     right: 0;
-    top: 650px;
+    top: 600px;
   }
   .day {
-    height: 1400px;
+    height: 1390px;
   }
 
   .pic {
