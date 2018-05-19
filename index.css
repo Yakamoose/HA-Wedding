@@ -370,9 +370,14 @@ p.couple-description {
     float: none;
     text-align: center;
     right: 0;
+    top: 650px;
   }
   .day {
-    height: 1450px;
+    height: 1400px;
+  }
+
+  .pic {
+    height: 350px;
   }
 }
 
