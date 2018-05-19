@@ -363,7 +363,7 @@ p.couple-description {
 @media only screen and (max-width: 1200px) {
 
   .title-text {
-    top: 13%;
+    /*top: 13%;*/
   }
   .title-date {
 
