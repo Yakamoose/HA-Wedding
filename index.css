@@ -164,7 +164,7 @@ p.couple-description {
   background-repeat: no-repeat;
   background-size: 100% 600px;
   background-color: #4d0000;
-  height: 1200px;
+  height: 1250px;
   opacity: .5;
   /*display: inline-block;*/
   text-align: center;
@@ -225,7 +225,7 @@ p.couple-description {
   font-size: 20px;
   float: right;
   /*clear: left;*/
-  top: 690px;
+  top: 660px;
   right: 30%;
   font-family: 'Pompiere', cursive;
   line-height: 0.5;
@@ -381,7 +381,7 @@ p.couple-description {
     top: 600px;
   }
   .day {
-    height: 1390px;
+    height: 1520px;
   }
 
   .pic {
