@@ -55,7 +55,7 @@ body {
   text-align: center;
   font-size: 50px;
   color: ivory;
-  opacity: 0.7;
+  opacity: 1;
   /*margin-top: -20px;*/
   font-family: 'Dancing Script', cursive;
   line-height: .7;
@@ -229,6 +229,11 @@ p.couple-description {
   right: 30%;
   font-family: 'Pompiere', cursive;
   line-height: 0.5;
+}
+
+.after-party {
+  /*text-decoration: none;*/
+  color: ivory;
 }
 
 .logo:hover {
